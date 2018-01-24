@@ -11,9 +11,9 @@ function updateObjectWithKeyAndValue(obj, key, value) {
 
 }
 
-function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
+function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
   
-  object.key = value;
-  return object;
+  obj[key] = value;
+  return obj;
   
 }
